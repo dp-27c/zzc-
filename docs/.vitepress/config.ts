@@ -8,6 +8,7 @@ export default defineConfig({
   markdown: { math: true },
   lastUpdated: true,
   themeConfig: {
+    siteTitle: 'zzc',
     nav: [
       { text: '算法库', link: '/algo/', activeMatch: '^/algo/' },
       { text: '笔记', link: '/notes/', activeMatch: '^/notes/' },

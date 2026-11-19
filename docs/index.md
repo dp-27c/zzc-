@@ -1,9 +1,7 @@
 ---
 layout: home
 hero:
-  name: zzc 的笔记
-  text: 记录推导，整理模板，积累题目
-  tagline: 从算法原理到 C++ 实现和在线评测。
+  name: 欢迎来看望 zzc
   actions:
     - theme: brand
       text: 进入算法库

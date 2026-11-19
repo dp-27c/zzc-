@@ -11,6 +11,7 @@ export interface Problem {
   algorithms: string[]
   contest?: string
   solutionStatus: 'collected' | 'written'
+  sample: boolean
 }
 
 declare const data: Problem[]
@@ -47,7 +48,8 @@ export default createContentLoader('algo/problems/**/*.md', {
         problem_url,
         algorithms: tags,
         contest,
-        solution_status
+        solution_status,
+        sample
       } = frontmatter
       if (!isPlatform(platform)) fail('platform 必须是 atcoder、codeforces 或 leetcode')
       if (!url.startsWith(`/algo/problems/${platform}/`)) {
@@ -68,6 +70,9 @@ export default createContentLoader('algo/problems/**/*.md', {
       if (solution_status !== 'collected' && solution_status !== 'written') {
         fail('solution_status 必须是 collected 或 written')
       }
+      if (sample !== undefined && typeof sample !== 'boolean') {
+        fail('sample 必须是布尔值')
+      }
 
       const key = `${platform}/${officialId.normalize('NFKC').toLowerCase()}`
       const duplicate = seen.get(key)
@@ -82,7 +87,8 @@ export default createContentLoader('algo/problems/**/*.md', {
         problemUrl: originalUrl,
         algorithms: tags,
         contest: contest === undefined ? undefined : requiredText('contest', contest),
-        solutionStatus: solution_status
+        solutionStatus: solution_status,
+        sample: sample === true
       })
     }
 
