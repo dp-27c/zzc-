@@ -1,0 +1,17 @@
+[
+  {
+    "id": "dsu",
+    "name": "并查集",
+    "aliases": ["DSU", "Union Find", "Disjoint Set Union"]
+  },
+  {
+    "id": "linear-dp",
+    "name": "线性 DP",
+    "aliases": ["线性动态规划", "Linear DP", "Linear Dynamic Programming"]
+  },
+  {
+    "id": "prefix-sum",
+    "name": "前缀和",
+    "aliases": ["Prefix Sum", "Prefix Sums"]
+  }
+]
