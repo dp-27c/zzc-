@@ -3,7 +3,9 @@ import { computed, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 import algorithms from '../algorithms.json'
 import { platformNames, type Platform } from '../problem-platforms'
+import { sampleNotice } from '../problem-sample'
 import { data as problems } from '../problems.data'
+import SampleBadge from './SampleBadge.vue'
 
 const props = defineProps<{ initialPlatform?: Platform }>()
 
@@ -43,6 +45,8 @@ const results = computed(() => {
     selectedAlgorithms.value.every(id => problem.algorithms.includes(id))
   )
 })
+
+const showsSampleProblems = computed(() => results.value.some(problem => problem.sample))
 </script>
 
 <template>
@@ -74,6 +78,7 @@ const results = computed(() => {
       <p class="algorithm-hint">题目须包含所有选中的算法标签。</p>
     </fieldset>
 
+    <p v-if="showsSampleProblems" class="problem-sample-notice">{{ sampleNotice }}</p>
     <p class="result-count" role="status">共 {{ results.length }} 道题</p>
     <table v-if="results.length" class="problem-results">
       <thead>
@@ -89,6 +94,7 @@ const results = computed(() => {
         <tr v-for="problem in results" :key="problem.url">
           <td>
             <a :href="withBase(problem.url)">{{ problem.title }}</a>
+            <SampleBadge v-if="problem.sample" class="problem-title-badge" />
             <span class="problem-id">{{ problem.problemId }}</span>
           </td>
           <td>
@@ -180,6 +186,18 @@ const results = computed(() => {
   margin: 8px 0;
   color: var(--vp-c-text-2);
   font-size: 13px;
+}
+
+.problem-filter .problem-sample-notice {
+  margin: 16px 0 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: var(--vp-c-default-soft);
+  font-size: 14px;
+}
+
+.problem-title-badge {
+  margin-inline-start: 6px;
 }
 
 .problem-results {

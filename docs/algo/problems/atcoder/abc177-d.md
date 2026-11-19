@@ -7,9 +7,16 @@ contest: ABC177
 algorithms: [dsu]
 templates: [/algo/templates/data-structures/dsu]
 solution_status: written
+sample: true
 ---
 
+<script setup>
+import SampleProblemNotice from '../../../.vitepress/components/SampleProblemNotice.vue'
+</script>
+
 # ABC177 D — Friends
+
+<SampleProblemNotice />
 
 [打开 AtCoder 原题](https://atcoder.jp/contests/abc177/tasks/abc177_d)
 
