@@ -10,41 +10,38 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'zzc',
     nav: [
-      { text: '算法库', link: '/algo/', activeMatch: '^/algo/' },
-      { text: '笔记', link: '/notes/', activeMatch: '^/notes/' },
-      { text: '生活', link: '/life/' },
-      { text: '简历', link: '/resume/' },
       { text: 'GitHub', link: 'https://github.com/dp-27c/zzc-' }
     ],
-    sidebar: {
-      '/algo/': [
-        {
-          text: '算法库',
-          items: [
-            { text: '专题', link: '/algo/topics/' },
-            { text: '模板', link: '/algo/templates/' }
-          ]
-        },
-        {
-          text: '题库',
-          link: '/algo/problems/',
-          items: [
-            { text: 'AtCoder', link: '/algo/problems/atcoder/' },
-            { text: 'Codeforces', link: '/algo/problems/codeforces/' },
-            { text: 'LeetCode', link: '/algo/problems/leetcode/' }
-          ]
-        }
-      ],
-      '/notes/': [
-        {
-          text: '笔记',
-          items: [
-            { text: '算法学习', link: '/notes/algorithm/' },
-            { text: 'VP 复盘', link: '/notes/contests/' }
-          ]
-        }
-      ]
-    },
+    sidebar: [
+      { text: '首页', link: '/' },
+      {
+        text: '算法库',
+        link: '/algo/',
+        items: [
+          { text: '专题', link: '/algo/topics/' },
+          { text: '模板', link: '/algo/templates/' },
+          {
+            text: '筛选题目',
+            link: '/algo/problems/',
+            items: [
+              { text: 'AtCoder', link: '/algo/problems/atcoder/' },
+              { text: 'Codeforces', link: '/algo/problems/codeforces/' },
+              { text: 'LeetCode', link: '/algo/problems/leetcode/' }
+            ]
+          }
+        ]
+      },
+      {
+        text: '笔记',
+        link: '/notes/',
+        items: [
+          { text: '算法学习', link: '/notes/algorithm/' },
+          { text: 'VP 复盘', link: '/notes/contests/' }
+        ]
+      },
+      { text: '生活', link: '/life/' },
+      { text: '简历', link: '/resume/' }
+    ],
     search: {
       provider: 'local',
       options: {
