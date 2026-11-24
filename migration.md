@@ -15,10 +15,10 @@ AtCoder、Codeforces、LeetCode 使用同级目录。AtCoder ABC 场次记录在
 | 原文件 | 网站路径 | 说明 |
 | --- | --- | --- |
 | 附件 `已粘贴的文本.txt` | `docs/algo/templates/a-level.md` | 两份同名附件内容一致，合并为一页。原文件保留，正文按原字节复制，仅添加页面元数据。 |
-| 附件 `B级模板.md` | `docs/algo/templates/b-level.md` | B-001 至 B-022，缺 1 张图 |
-| 附件 `C级公式.md` | `docs/algo/templates/c-level.md` | 公式排版，缺 8 张图 |
+| 附件 `B级模板.md` | `docs/algo/templates/b-level.md` | B-001 至 B-022，已补 1 张原图 |
+| 附件 `C级公式.md` | `docs/algo/templates/c-level.md` | 公式排版，已补 8 张原图 |
 | 附件 `D级模板.md` | `docs/algo/templates/d-level.md` | 公式排版 |
-| 附件 `E级trick.md` | `docs/algo/templates/e-level.md` | 公式排版，缺 6 张图 |
+| 附件 `E级trick.md` | `docs/algo/templates/e-level.md` | 公式排版，已补 6 张原图 |
 
 ## 示例映射
 

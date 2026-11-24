@@ -40,11 +40,11 @@ sidebarOutline: true
 
 4. $d(i \times j) =\sum_{x|i}\sum_{y|j} [gcd(x,y)==1]$(还没有理解出证明过程！！)
 
-5. 待补图片（Pasted image 20260109193627.png）
+5. ![各数量级内约数最多的数及其质因数分解](../../assets/note-images/Pasted%20image%2020260109193627.png)
 
 6. 在 1 e 7 的数据范围下， 相邻质数的间距最大值是 150 ,
 
-7. 待补图片（Pasted image 20260803152556.png）
+7. ![伯特兰定理中的素数存在区间](../../assets/note-images/Pasted%20image%2020260803152556.png)
 
 8. 欧拉函数
 
@@ -105,7 +105,7 @@ $$
 （`gcd(cn1,n) == 1`，所以一定存在 cn1 在 n 下的逆元。）
 
 重心的性质：
-待补图片（Pasted image 20261015154139.png）
+![平移、旋转、镜像和反色对相对坐标和的影响](../../assets/note-images/Pasted%20image%2020261015154139.png)
 
 所以经过上面任意变换后，这个二维图的重心仍是当初那个点（不是原图的重心位置，而是重心位置跟着一起变换后的位置）
 
@@ -243,7 +243,7 @@ int upbit(int x)//(1<<62)
 将$F_{i+2}$ 不断展开就会变成 $\huge\sum F_i$
 #### 前缀变形和
 
-待补图片（Pasted image 20250815194510.png）
+![斐波那契数列的加权前缀和](../../assets/note-images/Pasted%20image%2020250815194510.png)
 
 ### 组合数常用公式：
 #### 1.递推式：
@@ -260,7 +260,7 @@ $\huge \displaystyle \frac{n!}{(n-m)!m!}=C_{n}^{m}$
 $\huge C_{n}^{i}=\displaystyle \frac{(n-i+1)C_{n}^{i-1}}{i}$
 
 解释：
-待补图片（Pasted image 20250821200740.png）
+![组合恒等式的两种计数顺序](../../assets/note-images/Pasted%20image%2020250821200740.png)
 #### 5.排列式 
 $\huge A_{n}^{m}=\displaystyle\frac{n!}{(n-m)!}$ 
 
@@ -274,7 +274,7 @@ $\huge A_{n}^{m}=\displaystyle\frac{n!}{(n-m)!}$
 2. 从头开始推，做逆操作：$\large \displaystyle id'=id+\left \lfloor \frac{id-1}{p-1} \right \rfloor$
 
 2的正确性证明：
-待补图片（Pasted image 20251119193225.png）
+![每 p 项删除一项前后的下标对应](../../assets/note-images/Pasted%20image%2020251119193225.png)
 公式中的$id - 1$ 的原因是为了防止 $id'= t\times p -1$ 的  
 
 ## 构造：

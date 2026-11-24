@@ -31,7 +31,7 @@ for(int l=1,r=1;l<=n;l=r+1)
 利用容斥原理推导：
 [OI-Wiki 错位排列](https://oi-wiki.org/math/combinatorics/derangement/#%E9%94%99%E4%BD%8D%E6%8E%92%E5%88%97 "Permanent link")
 
-待补图片（Pasted image 20250817203103.png）
+![错位排列的容斥推导](../../assets/note-images/Pasted%20image%2020250817203103.png)
 
 这里我们可以参考 二项式反演 去理解
 
@@ -69,9 +69,9 @@ $$
 当 n 大于等于19 的时候，$H_n$ 就会超过 long long
 而对于开的 long long ，n 在 33 往后就要爆炸了 ！！BOOM！！
 
-待补图片（Pasted image 20250817161610.png）
+![卡特兰数的三种公式及前九项](../../assets/note-images/Pasted%20image%2020250817161610.png)
 
-待补图片（Pasted image 20260901143341.png）
+![卡特兰数的六类计数应用](../../assets/note-images/Pasted%20image%2020260901143341.png)
 
 #### ex卡特兰数
 如果是 $n\times m$ 的网格，那我们又该如何是好？
@@ -145,7 +145,7 @@ $g(m)$ 表示**恰好**满足条件（$=m$）的方案数（答案）
 $f(m)$ 表示**至多**满足条件（$\le m$）的方案数 (方便求的)
 先求出 $f(m)$，再反演求 $g(m)$
 
-待补图片（Pasted image 20250822160047.png）
+![二项式反演至多型从 0 到 m 的求和范围](../../assets/note-images/Pasted%20image%2020250822160047.png)
 
 $$
 f(m)=\sum_{i=0}^{m}C_{m}^{i}\times g(i) \Longrightarrow  g(m)=\sum_{i=0}^{m}(-1)^{m-i} \times C_{m}^{i} \times f(i)
@@ -156,7 +156,7 @@ $g(m)$ 表示**恰好**满足条件（$=m$）的方案数（答案）
 $f(m)$ 表示**至少**满足条件（$\ge m$）的方案数 (方便求的)
 先求出 $f(m)$，再反演求 $g(m)$
 
-待补图片（Pasted image 20250822160404.png）
+![二项式反演至少型从 m 到 n 的求和范围](../../assets/note-images/Pasted%20image%2020250822160404.png)
 
 $$
 f(m)=\sum_{i=m}^{n}C_{i}^{m}\times g(i) \Longrightarrow  g(m)=\sum_{i=m}^{n}(-1)^{i-m} \times C_{i}^{m} \times f(i)
@@ -165,7 +165,7 @@ $$
 ### 斯特林反演：
 #### 变换一的推导：
 
-待补图片（Pasted image 20250821193647.png）
+![用第二类斯特林数将幂展开成下降阶乘](../../assets/note-images/Pasted%20image%2020250821193647.png)
 
 $$
 x^n=\sum_{k=0}^{n}C_{x}^{k}\ S_{n}^{k}\ k!
@@ -203,7 +203,7 @@ $$
 
 然后就是由这个式子推导出来的变形：
 
-待补图片（Pasted image 20250825160946.png）
+![普通生成函数的三个级数展开](../../assets/note-images/Pasted%20image%2020250825160946.png)
 
 讲一下（4） 是怎么变出来的，我们将原式子左右两边求导，就可以了
 
@@ -221,7 +221,7 @@ $$
 
 由上面的这个式子变形得到的。
 
-待补图片（Pasted image 20250825161417.png）
+![指数生成函数的交错、偶次和奇次展开](../../assets/note-images/Pasted%20image%2020250825161417.png)
 
 #### 生成函数的tricks：
 ##### k阶前缀和：
