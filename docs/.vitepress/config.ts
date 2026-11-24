@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { algorithmTopicLinks } from './algorithm-topic-links'
-import { mathSidebar } from './math-topics'
+import { topicSidebar } from './topic-navigation'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -23,7 +22,7 @@ export default defineConfig({
           {
             text: '专题',
             link: '/algo/topics/',
-            items: [mathSidebar, ...algorithmTopicLinks]
+            items: topicSidebar
           },
           {
             text: '模板',

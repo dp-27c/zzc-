@@ -20,6 +20,9 @@ AtCoder、Codeforces、LeetCode 使用同级目录。AtCoder ABC 场次记录在
 | 附件 `D级模板.md` | `docs/algo/templates/d-level.md` | 公式排版 |
 | 附件 `E级trick.md` | `docs/algo/templates/e-level.md` | 公式排版，已补 6 张原图 |
 | 附件 `数学大板：.md` | `docs/algo/topics/math/` | 四个分区，31 个章节，2 个空章标为待补。复用 6 张原图，14 处保留文件名占位。 |
+| 附件 `计算几何板.md` | `docs/algo/topics/geometry/` | 8 个章节，复用 1 张图，4 张待补 |
+| 附件 `IC网络赛板：.md` | `docs/algo/topics/mixed/` | 专题名为「综合」，9 个章节，3 张图待补 |
+| 附件 `Tricks（需吸收日月精华）.md` | `docs/algo/topics/tricks/` | 专题名为「总trick」，8 个章节，复用 5 张图，6 张待补 |
 
 ## 示例映射
 
