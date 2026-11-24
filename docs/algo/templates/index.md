@@ -1,5 +1,3 @@
-# C++ 模板
+# 模板
 
-## 数据结构
-
-- [并查集](./data-structures/dsu.md)
+- [A级模板](./a-level.md)

@@ -6,18 +6,22 @@ import { computed } from 'vue'
 const props = defineProps<{
   items: DefaultTheme.SidebarItem[]
   currentPath: string
+  currentHash: string
 }>()
 
-function isOnPath({ link }: DefaultTheme.SidebarItem) {
+function isOnPath({ link, items }: DefaultTheme.SidebarItem): boolean {
+  if (link?.includes('#')) {
+    return link === props.currentPath + props.currentHash || !!items?.some(isOnPath)
+  }
   return link === props.currentPath ||
-    (link !== '/' && link?.endsWith('/') && props.currentPath.startsWith(link))
+    !!(link && link !== '/' && link.endsWith('/') && props.currentPath.startsWith(link))
 }
 
 const links = computed(() => props.items.map(item => {
   const onPath = isOnPath(item)
   const children = onPath ? item.items : undefined
-  const current = item.link === props.currentPath ? 'page'
-    : onPath && !children?.some(isOnPath) ? 'location'
+  const current = onPath && !children?.some(isOnPath)
+    ? (item.link === props.currentPath ? 'page' : 'location')
     : undefined
 
   return { ...item, children, current }
@@ -34,7 +38,12 @@ const links = computed(() => props.items.map(item => {
         class="sidebar-link"
         :class="{ 'sidebar-home': item.link === '/' }"
       >{{ item.text }}</a>
-      <SidebarLinks v-if="item.children?.length" :items="item.children" :current-path="currentPath" />
+      <SidebarLinks
+        v-if="item.children?.length"
+        :items="item.children"
+        :current-path="currentPath"
+        :current-hash="currentHash"
+      />
     </li>
   </ul>
 </template>

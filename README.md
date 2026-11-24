@@ -34,7 +34,7 @@ solution_status: collected
 
 ## 归档与迁移
 
-[资料迁移方案与记录](migration.md)列出分类规则、示例映射和试迁移验收步骤。模板说明页通过 VitePress 代码片段语法引用 `docs/code/cpp/` 下的独立源码。
+[资料迁移方案与记录](migration.md)列出分类规则、导入记录和试迁移验收步骤。[A级模板](docs/algo/templates/a-level.md)保留了附件正文。ABC177 D 题解通过 VitePress 代码片段语法引用 `docs/code/cpp/dsu.hpp`。
 
 ## GitHub Pages
 

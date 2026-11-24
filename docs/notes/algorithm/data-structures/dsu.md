@@ -25,4 +25,4 @@ algorithms: [dsu]
 
 **重复合并时计数会增加吗？** 如果两个元素已经同组，两次查询得到同一个根，合并就可以直接结束。
 
-[查看 C++17 模板](../../../algo/templates/data-structures/dsu.md)
+[查看 ABC177 D 的并查集实现](../../../algo/problems/atcoder/abc177-d.md#c-17)

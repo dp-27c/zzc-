@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'zzc 的笔记',
   description: '算法笔记、C++ 模板、题库与生活记录',
   base: '/zzc-/',
-  markdown: { math: true },
+  markdown: { math: true, headers: { level: [2, 3, 4] } },
   lastUpdated: true,
   themeConfig: {
     siteTitle: 'zzc',
@@ -19,7 +19,11 @@ export default defineConfig({
         link: '/algo/',
         items: [
           { text: '专题', link: '/algo/topics/' },
-          { text: '模板', link: '/algo/templates/' },
+          {
+            text: '模板',
+            link: '/algo/templates/',
+            items: [{ text: 'A级模板', link: '/algo/templates/a-level.html' }]
+          },
           {
             text: '筛选题目',
             link: '/algo/problems/',
