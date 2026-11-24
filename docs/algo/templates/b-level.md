@@ -1376,7 +1376,7 @@ ld rotating_calipers(vector<Point> &s,int n) // 旋转卡壳,求凸包直径
 3. 枚举对角线 i ，j 两个顶点，分别找到这个对角线上下对应的两个对踵点a 和 b 。
     时间复杂度为 O(n^2)
 
-    ![凸包内最大四边形的候选对角线](../../assets/note-images/Pasted%20image%2020250929204647.png)
+    ![凸包内最大四边形的候选对角线](../../assets/note-images/Pasted%20image%2020250929204647.png){width=296 height=262}
 
 ##### 代码：
 
