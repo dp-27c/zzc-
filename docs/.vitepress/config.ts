@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import algorithms from './algorithms.json'
+import { algorithmTopicLinks } from './algorithm-topic-links'
 import { mathSidebar } from './math-topics'
 
 export default defineConfig({
@@ -23,10 +23,7 @@ export default defineConfig({
           {
             text: '专题',
             link: '/algo/topics/',
-            items: [
-              mathSidebar,
-              ...algorithms.map(({ id, name }) => ({ text: name, link: `/algo/topics/${id}.html` }))
-            ]
+            items: [mathSidebar, ...algorithmTopicLinks]
           },
           {
             text: '模板',
