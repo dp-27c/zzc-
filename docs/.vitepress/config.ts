@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'zzc 的笔记',
   description: '算法笔记、C++ 模板、题库与生活记录',
   base: '/zzc-/',
-  markdown: { math: true, headers: { level: [2, 3, 4] } },
+  markdown: { math: true, headers: { level: [2, 3, 4, 5] } },
   lastUpdated: true,
   themeConfig: {
     siteTitle: 'zzc',
@@ -22,7 +22,13 @@ export default defineConfig({
           {
             text: '模板',
             link: '/algo/templates/',
-            items: [{ text: 'A级模板', link: '/algo/templates/a-level.html' }]
+            items: [
+              { text: 'A级模板', link: '/algo/templates/a-level.html' },
+              { text: 'B级模板', link: '/algo/templates/b-level.html' },
+              { text: 'C级公式', link: '/algo/templates/c-level.html' },
+              { text: 'D级模板', link: '/algo/templates/d-level.html' },
+              { text: 'E级trick', link: '/algo/templates/e-level.html' }
+            ]
           },
           {
             text: '筛选题目',

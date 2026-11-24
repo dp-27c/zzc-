@@ -2,7 +2,7 @@
 
 | 资料 | 原路径 | 网站路径 |
 | --- | --- | --- |
-| 自备模板 | 附件 `已粘贴的文本.txt`，其余待提供 | 说明放在 `docs/algo/templates/`，独立 C++ 源码放在 `docs/code/cpp/` |
+| 自备模板 | A 至 E 级附件，其余待提供 | 说明放在 `docs/algo/templates/`，独立 C++ 源码放在 `docs/code/cpp/` |
 | 算法学习笔记 | 待提供 | `docs/notes/algorithm/<分类>/` |
 | 优质题目与 VP 资料 | 待提供 | 单题放在 `docs/algo/problems/<来源>/`，整场复盘放在 `docs/notes/contests/` |
 
@@ -15,6 +15,10 @@ AtCoder、Codeforces、LeetCode 使用同级目录。AtCoder ABC 场次记录在
 | 原文件 | 网站路径 | 说明 |
 | --- | --- | --- |
 | 附件 `已粘贴的文本.txt` | `docs/algo/templates/a-level.md` | 两份同名附件内容一致，合并为一页。原文件保留，正文按原字节复制，仅添加页面元数据。 |
+| 附件 `B级模板.md` | `docs/algo/templates/b-level.md` | B-001 至 B-022，缺 1 张图 |
+| 附件 `C级公式.md` | `docs/algo/templates/c-level.md` | 公式排版，缺 8 张图 |
+| 附件 `D级模板.md` | `docs/algo/templates/d-level.md` | 公式排版 |
+| 附件 `E级trick.md` | `docs/algo/templates/e-level.md` | 公式排版，缺 6 张图 |
 
 ## 示例映射
 
