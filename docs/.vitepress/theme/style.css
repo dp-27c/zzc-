@@ -39,17 +39,7 @@
   }
 }
 
-#VPSidebarNav > .group:first-of-type .link {
-  padding-inline: 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-}
-
-#VPSidebarNav > .group:first-of-type .link .text {
-  font-weight: 700;
-}
-
-#VPSidebarNav > .group:first-of-type .is-active > .item > .link,
-#VPSidebarNav > .group:first-of-type .link:hover {
-  background: var(--vp-c-brand-soft);
+/* The layout slot adds our list alongside VitePress's default groups. */
+#VPSidebarNav > .route-sidebar ~ .group {
+  display: none;
 }
