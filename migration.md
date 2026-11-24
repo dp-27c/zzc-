@@ -23,6 +23,7 @@ AtCoder、Codeforces、LeetCode 使用同级目录。AtCoder ABC 场次记录在
 | 附件 `计算几何板.md` | `docs/algo/topics/geometry/` | 8 个章节，复用 1 张图，4 张待补 |
 | 附件 `IC网络赛板：.md` | `docs/algo/topics/mixed/` | 专题名为「综合」，9 个章节，3 张图待补 |
 | 附件 `Tricks（需吸收日月精华）.md` | `docs/algo/topics/tricks/` | 专题名为「总trick」，8 个章节，复用 5 张图，6 张待补 |
+| 附件 `字符串讲解：.md` | `docs/notes/algorithm/strings/` | 4 个章节，5 张图待补 |
 
 ## 示例映射
 
