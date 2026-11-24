@@ -56,11 +56,12 @@ const links = computed(() => props.items.map(item => {
   color: var(--sidebar-link-color, var(--vp-c-text-2));
   font-size: 14px;
   line-height: 24px;
+  overflow-wrap: anywhere;
 }
 
 .sidebar-links .sidebar-links {
-  margin-inline-start: 10px;
-  padding-inline-start: 10px;
+  margin-inline-start: 4px;
+  padding-inline-start: 7px;
   border-inline-start: 1px solid var(--vp-c-divider);
 }
 

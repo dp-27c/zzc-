@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import algorithms from './algorithms.json'
+import { mathSidebar } from './math-topics'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -18,7 +20,14 @@ export default defineConfig({
         text: '算法库',
         link: '/algo/',
         items: [
-          { text: '专题', link: '/algo/topics/' },
+          {
+            text: '专题',
+            link: '/algo/topics/',
+            items: [
+              mathSidebar,
+              ...algorithms.map(({ id, name }) => ({ text: name, link: `/algo/topics/${id}.html` }))
+            ]
+          },
           {
             text: '模板',
             link: '/algo/templates/',

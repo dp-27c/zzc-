@@ -3,7 +3,7 @@
 | 资料 | 原路径 | 网站路径 |
 | --- | --- | --- |
 | 自备模板 | A 至 E 级附件，其余待提供 | 说明放在 `docs/algo/templates/`，独立 C++ 源码放在 `docs/code/cpp/` |
-| 算法学习笔记 | 待提供 | `docs/notes/algorithm/<分类>/` |
+| 算法学习笔记 | 附件 `数学大板：.md`，其余待提供 | 数学专题放在 `docs/algo/topics/math/`，其他学习笔记放在 `docs/notes/algorithm/<分类>/` |
 | 优质题目与 VP 资料 | 待提供 | 单题放在 `docs/algo/problems/<来源>/`，整场复盘放在 `docs/notes/contests/` |
 
 仅复制指定可公开的内容，保留原文件及其路径。同一旧笔记里的推导、适用条件和疑问保存在学习笔记中，代码整理到独立文件，并由模板说明页引用。笔记链接到模板页。笔记、模板和题目统一使用共享词表的 `algorithms` ID。题解引用的模板路径另外登记在 `templates`。
@@ -19,6 +19,7 @@ AtCoder、Codeforces、LeetCode 使用同级目录。AtCoder ABC 场次记录在
 | 附件 `C级公式.md` | `docs/algo/templates/c-level.md` | 公式排版，已补 8 张原图 |
 | 附件 `D级模板.md` | `docs/algo/templates/d-level.md` | 公式排版 |
 | 附件 `E级trick.md` | `docs/algo/templates/e-level.md` | 公式排版，已补 6 张原图 |
+| 附件 `数学大板：.md` | `docs/algo/topics/math/` | 四个分区，31 个章节，2 个空章标为待补。复用 6 张原图，14 处保留文件名占位。 |
 
 ## 示例映射
 

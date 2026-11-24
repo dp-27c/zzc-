@@ -5,6 +5,8 @@ import algorithms from '../../.vitepress/algorithms.json'
 
 # 专题
 
+[数学](./math/index.md)
+
 <ul>
   <li v-for="{ id, name } in algorithms" :key="id">
     <a :href="withBase('/algo/topics/' + id + '.html')">{{ name }}</a>
