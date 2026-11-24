@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { stringNotesSidebar } from './string-notes'
+import { algorithmLearningSidebar } from './algorithm-learning'
 import { topicSidebar } from './topic-navigation'
 
 export default defineConfig({
@@ -51,18 +51,7 @@ export default defineConfig({
         text: '笔记',
         link: '/notes/',
         items: [
-          {
-            text: '算法学习',
-            link: '/notes/algorithm/',
-            items: [
-              {
-                text: '数据结构',
-                link: '/notes/algorithm/data-structures/',
-                items: [{ text: '并查集原理', link: '/notes/algorithm/data-structures/dsu.html' }]
-              },
-              stringNotesSidebar
-            ]
-          },
+          algorithmLearningSidebar,
           { text: 'VP 复盘', link: '/notes/contests/' }
         ]
       },
