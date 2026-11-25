@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { withBase } from 'vitepress'
+import TopicCards from './TopicCards.vue'
 import { learningCategories, learningChapterHref } from '../algorithm-learning'
 
 const props = defineProps<{ category: string; section?: string }>()
@@ -11,19 +11,28 @@ const chapters = props.section
   : category.chapters
 
 if (!chapters) throw new Error(`Unknown learning notes section: ${props.category}/${props.section}`)
+
+const cards = chapters.flatMap(chapter => {
+  if (!chapter.path) return []
+
+  const childLinks = (chapter.items ?? []).flatMap(child => child.path
+    ? [{
+      title: child.featured ?? child.title,
+      href: learningChapterHref(category.slug, child.path)
+    }]
+    : [])
+
+  return [{
+    title: chapter.title,
+    href: learningChapterHref(category.slug, chapter.path),
+    featured: childLinks.slice(0, 4)
+  }]
+})
+
+const pendingChapters = chapters.filter(chapter => !chapter.path)
 </script>
 
 <template>
-  <ul class="learning-chapters">
-    <li v-for="chapter in chapters" :key="chapter.path ?? chapter.title">
-      <a v-if="chapter.path" :href="withBase(learningChapterHref(category.slug, chapter.path))">{{ chapter.title }}</a>
-      <span v-else>{{ chapter.title }}（待补）</span>
-      <ul v-if="chapter.items?.length">
-        <li v-for="child in chapter.items" :key="child.path ?? child.title">
-          <a v-if="child.path" :href="withBase(learningChapterHref(category.slug, child.path))">{{ child.title }}</a>
-          <span v-else>{{ child.title }}（待补）</span>
-        </li>
-      </ul>
-    </li>
-  </ul>
+  <TopicCards :cards="cards" />
+  <p v-for="chapter in pendingChapters" :key="chapter.title">{{ chapter.title }}（待补）</p>
 </template>
