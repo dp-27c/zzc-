@@ -14,3 +14,32 @@
   --vp-c-brand-soft: rgba(164, 151, 250, 0.16);
   --vp-home-hero-name-background: linear-gradient(115deg, #b3a9ff 10%, #6dd5cf 85%);
 }
+
+.vp-doc h1.home-welcome {
+  width: fit-content;
+  padding-block: 4px;
+  background: var(--vp-home-hero-name-background);
+  background-clip: text;
+  color: var(--vp-home-hero-name-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+}
+
+@media (min-width: 640px) {
+  .vp-doc h1.home-welcome {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 960px) {
+  .vp-doc h1.home-welcome {
+    font-size: 56px;
+  }
+}
+
+/* The layout slot adds our list alongside VitePress's default groups. */
+#VPSidebarNav > .route-sidebar ~ .group {
+  display: none;
+}

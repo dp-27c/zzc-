@@ -1,12 +1,12 @@
+---
+aside: false
+---
+
 <script setup>
-import { withBase } from 'vitepress'
-import algorithms from '../../.vitepress/algorithms.json'
+import TopicCards from '../../.vitepress/components/TopicCards.vue'
+import { topicCards } from '../../.vitepress/topic-navigation'
 </script>
 
 # 专题
 
-<ul>
-  <li v-for="{ id, name } in algorithms" :key="id">
-    <a :href="withBase('/algo/topics/' + id + '.html')">{{ name }}</a>
-  </li>
-</ul>
+<TopicCards :cards="topicCards" />
