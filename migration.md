@@ -3,7 +3,7 @@
 | 资料 | 原路径 | 网站路径 |
 | --- | --- | --- |
 | 自备模板 | A 至 E 级附件，其余待提供 | 说明放在 `docs/algo/templates/`，独立 C++ 源码放在 `docs/code/cpp/` |
-| 算法学习笔记 | 附件 `数学大板：.md`，其余待提供 | 数学专题放在 `docs/algo/topics/math/`，其他学习笔记放在 `docs/notes/algorithm/<分类>/` |
+| 算法学习笔记 | 附件 `数学大板：.md` 和本次四份讲解笔记 | 数学专题放在 `docs/algo/topics/math/`，其他学习笔记放在 `docs/notes/algorithm/<分类>/` |
 | 优质题目与 VP 资料 | 待提供 | 单题放在 `docs/algo/problems/<来源>/`，整场复盘放在 `docs/notes/contests/` |
 
 仅复制指定可公开的内容，保留原文件及其路径。同一旧笔记里的推导、适用条件和疑问保存在学习笔记中，代码整理到独立文件，并由模板说明页引用。笔记链接到模板页。笔记、模板和题目统一使用共享词表的 `algorithms` ID。题解引用的模板路径另外登记在 `templates`。
@@ -24,6 +24,104 @@ AtCoder、Codeforces、LeetCode 使用同级目录。AtCoder ABC 场次记录在
 | 附件 `IC网络赛板：.md` | `docs/algo/topics/mixed/` | 专题名为「综合」，9 个章节，3 张图待补 |
 | 附件 `Tricks（需吸收日月精华）.md` | `docs/algo/topics/tricks/` | 专题名为「总trick」，8 个章节，复用 5 张图，6 张待补 |
 | 附件 `字符串讲解：.md` | `docs/notes/algorithm/strings/` | 4 个章节，5 张图待补 |
+| 附件 `数学讲解.md` | `docs/notes/algorithm/math/` | 37 个章节，复用 7 处配图 |
+| 附件 `计算几何讲解.md` | `docs/notes/algorithm/geometry/` | 13 个章节，复用 1 处配图 |
+| 附件 `dp讲解.md` | `docs/notes/algorithm/dp/` | 21 个章节，复用 0 处配图 |
+| 附件 `数据结构讲解：.md` | `docs/notes/algorithm/data-structures/` | 14 个章节，复用 0 处配图 |
+
+## 算法学习笔记缺图清单
+
+78 处缺图涉及 76 个不同文件。正文已按原文件名占位。
+
+### 数学
+
+- `Pasted image 20250602193726.png`
+- `Pasted image 20250813212904.png`
+- `Pasted image 20250813213153.png`
+- `Pasted image 20250814110900.png`
+- `Pasted image 20250823141839.png`
+- `Pasted image 20250817103159.png`
+- `Pasted image 20250817172910.png`
+- `Pasted image 20250817103414.png`
+- `微信图片_20250819120511_71.jpg`
+- `Pasted image 20250816151804.png`
+- `Pasted image 20250817094117.png`
+- `Pasted image 20250816152930.png`
+- `Pasted image 20250816153042.png`
+- `Pasted image 20250816165137.png`
+- `Pasted image 20250817114418.png`
+- `Pasted image 20250817120606.png`
+- `Pasted image 20250817121543.png`
+- `Pasted image 20250817143653.png`
+- `Pasted image 20250817143718.png`
+- `Pasted image 20250821153307.png`
+- `Pasted image 20250817155753.png`
+- `Pasted image 20250817161927.png`
+- `Pasted image 20250817161957.png`
+- `卡特兰数辅助1.png`
+- `Pasted image 20250821144919.png`
+- `Pasted image 20250821145000.png`
+- `Pasted image 20250821160055.png`
+- `Pasted image 20250821164945.png`
+- `Pasted image 20250824141612.png`
+- `Pasted image 20250822153650.png`
+- `Pasted image 20250821195033.png`
+- `Pasted image 20250821210922.png`
+- `Pasted image 20250821212659.png`
+- `Pasted image 20251202104717.png`
+- `Pasted image 20250825162928.png`
+- `Pasted image 20250825171035.png`
+- `Pasted image 20250825185527.png`
+- `Pasted image 20250826145132.png`
+- `Pasted image 20250822152038.png`
+- `Pasted image 20250828141553.png`
+- `Pasted image 20250829163550.png`
+- `Pasted image 20250829164215.png`
+- `Pasted image 20250829172006.png`
+- `Pasted image 20250830152557.png`
+- `Pasted image 20250831135449.png`
+- `Pasted image 20250831140941.png`
+
+### 计算几何
+
+- `Pasted image 20250922185150.png`
+- `Pasted image 20250922185216.png`
+- `Pasted image 20250922195646.png`
+- `Pasted image 20250923162034.png`
+- `Pasted image 20250924141735.png`
+- `CB43B40A9CA8FFA5151D5E7E1D7826F2.jpg`
+- `Pasted image 20250927083117.png`
+- `Pasted image 20250927084103.png`
+- `Pasted image 20250926202019.png`
+- `Pasted image 20250927132942.png`
+- `Pasted image 20250927163504.png`
+- `Pasted image 20250927135730.png`
+- `Pasted image 20250928162241.png`
+- `Pasted image 20250928163205.png`
+- `Pasted image 20250928163438.png`
+- `Pasted image 20250929172409.png`
+- `Pasted image 20250929200840.png`
+
+### 动态规划
+
+- `Pasted image 20250719205557.png`
+- `Pasted image 20250720213343.png`
+- `屏幕截图 2025-07-22 213206.png`
+- `Pasted image 20250725104542.png`
+- `Pasted image 20250725202316.png`
+- `Pasted image 20250726212745.png`
+- `Pasted image 20250728200118.png`
+- `Pasted image 20250817143653.png`
+- `Pasted image 20250817143718.png`
+- `屏幕截图 2025-07-30 145542.png`
+- `屏幕截图 2025-07-30 145550.png`
+
+### 数据结构
+
+- `Pasted image 20251017194347.png`
+- `Pasted image 20260111210946.png`
+- `Pasted image 20260111211110.png`
+- `Pasted image 20260815200756.png`
 
 ## 示例映射
 

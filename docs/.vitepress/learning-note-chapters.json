@@ -1,0 +1,442 @@
+[
+  {
+    "slug": "math",
+    "title": "数学",
+    "chapters": [
+      {
+        "title": "数学推导（感知力+1）",
+        "path": "derivations/",
+        "items": [
+          {
+            "title": "公式推理+分解质因数",
+            "path": "derivations/factorization.html"
+          },
+          {
+            "title": "公式化简，双指针处理绝对值",
+            "path": "derivations/absolute-values.html"
+          },
+          {
+            "title": "欧拉函数和质因数分解",
+            "path": "derivations/totient-factorization.html"
+          }
+        ]
+      },
+      {
+        "title": "数学思路（天赋点+1）",
+        "path": "reasoning/",
+        "items": [
+          {
+            "title": "198. 反素数（约数个数，排序）",
+            "path": "reasoning/anti-primes.html"
+          }
+        ]
+      },
+      {
+        "title": "数论大师（硬件，通往数学森林的门票）",
+        "path": "number-theory/",
+        "items": [
+          {
+            "title": "质数",
+            "path": "number-theory/primes.html",
+            "featured": "质数"
+          },
+          {
+            "title": "同余(天下大同,春风一吹忘了谁~)",
+            "path": "number-theory/congruences.html"
+          },
+          {
+            "title": "矩阵快速幂",
+            "path": "number-theory/matrix-exponentiation.html"
+          },
+          {
+            "title": "数论分块",
+            "path": "number-theory/floor-division.html"
+          }
+        ]
+      },
+      {
+        "title": "组合数学（人类的智慧）",
+        "path": "combinatorics/",
+        "items": [
+          {
+            "title": "组合数的计算方法",
+            "path": "combinatorics/binomial-coefficients.html"
+          },
+          {
+            "title": "鸽笼原理",
+            "path": "combinatorics/pigeonhole-principle.html"
+          },
+          {
+            "title": "隔板插空",
+            "path": "combinatorics/stars-and-bars.html"
+          },
+          {
+            "title": "二维组合",
+            "path": "combinatorics/grid-combinatorics.html"
+          },
+          {
+            "title": "容斥原理：（3）",
+            "path": "combinatorics/inclusion-exclusion.html"
+          },
+          {
+            "title": "错位排列（熟练度：0）",
+            "path": "combinatorics/derangements.html"
+          },
+          {
+            "title": "圆排列：（0）",
+            "path": "combinatorics/circular-arrangements.html"
+          },
+          {
+            "title": "卡特兰数（Cantalan数）（熟练度：3）",
+            "path": "combinatorics/catalan-numbers.html",
+            "featured": "卡特兰数"
+          },
+          {
+            "title": "斯特林数：（熟练度：2）",
+            "path": "combinatorics/stirling-numbers.html"
+          },
+          {
+            "title": "二项式",
+            "path": "combinatorics/binomial-transform.html"
+          },
+          {
+            "title": "斯特林反演",
+            "path": "combinatorics/stirling-inversion.html"
+          },
+          {
+            "title": "范德蒙德卷积公式",
+            "path": "combinatorics/vandermonde-convolution.html"
+          },
+          {
+            "title": "组合数学中的恒等式",
+            "path": "combinatorics/combinatorial-identities.html"
+          }
+        ]
+      },
+      {
+        "title": "多项式与生成函数（掌握操纵 函数 的力量吧！）",
+        "path": "polynomials/",
+        "items": [
+          {
+            "title": "生成函数",
+            "path": "polynomials/generating-functions.html",
+            "featured": "生成函数"
+          },
+          {
+            "title": "狄利克雷函数",
+            "path": "polynomials/dirichlet.html"
+          },
+          {
+            "title": "莫比乌斯反演",
+            "path": "polynomials/mobius-inversion.html"
+          },
+          {
+            "title": "和式变换：（核武器）",
+            "path": "polynomials/summation-transformations.html"
+          },
+          {
+            "title": "FFT(快速傅里叶变换)",
+            "path": "polynomials/fft.html"
+          },
+          {
+            "title": "NTT(快速数论变换)",
+            "path": "polynomials/ntt.html"
+          },
+          {
+            "title": "针对非 固定模数的 多模多项式乘法（MTT）"
+          },
+          {
+            "title": "杜教筛：（orz杜老师）",
+            "path": "polynomials/dujiao-sieve.html"
+          }
+        ]
+      },
+      {
+        "title": "代数（袋鼠）",
+        "path": "gaussian-elimination.html"
+      },
+      {
+        "title": "单调子序列问题",
+        "path": "lis-partition.html"
+      },
+      {
+        "title": "博弈论",
+        "path": "game-theory/",
+        "items": [
+          {
+            "title": "Bash博弈",
+            "path": "game-theory/bash-game.html"
+          },
+          {
+            "title": "Nim游戏",
+            "path": "game-theory/nim.html"
+          },
+          {
+            "title": "斐波那契博弈",
+            "path": "game-theory/fibonacci-game.html"
+          },
+          {
+            "title": "SG 函数",
+            "path": "game-theory/sg-function.html",
+            "featured": "SG 函数"
+          },
+          {
+            "title": "博弈刷题",
+            "path": "game-theory/exercises.html"
+          },
+          {
+            "title": "非典型博弈类问题",
+            "path": "game-theory/nonstandard-games.html"
+          }
+        ]
+      },
+      {
+        "title": "字符串哈希（数学色彩）",
+        "path": "string-hashing.html"
+      }
+    ]
+  },
+  {
+    "slug": "geometry",
+    "title": "计算几何",
+    "chapters": [
+      {
+        "title": "实用技巧",
+        "path": "tricks.html"
+      },
+      {
+        "title": "直线模板",
+        "path": "line-template.html"
+      },
+      {
+        "title": "距离",
+        "path": "distances.html",
+        "featured": "距离"
+      },
+      {
+        "title": "计算几何前瞻摘记",
+        "path": "overview.html"
+      },
+      {
+        "title": "向量运算和点线关系",
+        "path": "vectors-and-lines.html"
+      },
+      {
+        "title": "叉积应用",
+        "path": "cross-product-applications.html"
+      },
+      {
+        "title": "三角剖分，计算多边形和圆的面积",
+        "path": "polygon-circle-area.html"
+      },
+      {
+        "title": "多边形",
+        "path": "polygons.html"
+      },
+      {
+        "title": "凸包",
+        "path": "convex-hull.html",
+        "featured": "凸包"
+      },
+      {
+        "title": "旋转卡壳",
+        "path": "rotating-calipers.html",
+        "featured": "旋转卡壳"
+      },
+      {
+        "title": "计算几何分治",
+        "path": "closest-pair.html"
+      },
+      {
+        "title": "半平面交",
+        "path": "half-plane-intersection.html",
+        "featured": "半平面交"
+      },
+      {
+        "title": "最小圆覆盖",
+        "path": "minimum-enclosing-circle.html"
+      }
+    ]
+  },
+  {
+    "slug": "dp",
+    "title": "动态规划",
+    "chapters": [
+      {
+        "title": "最长上升子序列（时间优化）",
+        "path": "lis.html",
+        "featured": "最长上升子序列"
+      },
+      {
+        "title": "最长公共上升子序列",
+        "path": "lcis.html"
+      },
+      {
+        "title": "背包",
+        "path": "knapsack/",
+        "items": [
+          {
+            "title": "多重背包问题I （朴素算法）",
+            "path": "knapsack/multiple-basic.html"
+          },
+          {
+            "title": "多重背包问题II（二进制+多重背包）",
+            "path": "knapsack/multiple-binary.html"
+          },
+          {
+            "title": "多重背包问题III（单调队列+多重背包）",
+            "path": "knapsack/multiple-monotone-queue.html",
+            "featured": "多重背包的单调队列优化"
+          },
+          {
+            "title": "背包求最优方案数",
+            "path": "knapsack/optimal-count.html"
+          },
+          {
+            "title": "背包求最优方案的路径",
+            "path": "knapsack/reconstruct-solution.html"
+          },
+          {
+            "title": "完全背包的思考",
+            "path": "knapsack/complete.html"
+          },
+          {
+            "title": "混合背包问题",
+            "path": "knapsack/mixed.html"
+          },
+          {
+            "title": "树上背包（有依赖的背包）",
+            "path": "knapsack/tree.html"
+          },
+          {
+            "title": "贪心背包",
+            "path": "knapsack/greedy.html"
+          },
+          {
+            "title": "多重背包II+完全背包",
+            "path": "knapsack/multiple-complete.html"
+          }
+        ]
+      },
+      {
+        "title": "kmp算法（待更新）"
+      },
+      {
+        "title": "状态压缩dp",
+        "path": "state-compression.html"
+      },
+      {
+        "title": "二进制常用技巧总结（可用于数位dp,异或）",
+        "path": "binary-techniques.html"
+      },
+      {
+        "title": "区间dp",
+        "path": "interval-dp.html"
+      },
+      {
+        "title": "树形dp",
+        "path": "tree-dp.html",
+        "featured": "换根 DP"
+      },
+      {
+        "title": "数位dp",
+        "path": "digit-dp.html"
+      },
+      {
+        "title": "背包（容斥原理优化）",
+        "path": "inclusion-exclusion-knapsack.html"
+      },
+      {
+        "title": "单调队列优化问题",
+        "path": "monotone-queue.html"
+      },
+      {
+        "title": "斜率优化（队列）",
+        "path": "slope-optimization.html"
+      },
+      {
+        "title": "SOS DP",
+        "path": "sos-dp.html",
+        "featured": "SOS DP"
+      }
+    ]
+  },
+  {
+    "slug": "data-structures",
+    "title": "数据结构",
+    "chapters": [
+      {
+        "title": "莫队",
+        "path": "mo/",
+        "items": [
+          {
+            "title": "普通莫队",
+            "path": "mo/standard.html",
+            "featured": "普通莫队"
+          },
+          {
+            "title": "带修莫队",
+            "path": "mo/with-updates.html"
+          },
+          {
+            "title": "回滚莫队",
+            "path": "mo/rollback.html"
+          },
+          {
+            "title": "二次离线莫队",
+            "path": "mo/offline-twice.html"
+          },
+          {
+            "title": "综合性莫队",
+            "path": "mo/combined.html"
+          }
+        ]
+      },
+      {
+        "title": "bitset 综合运用",
+        "path": "bitset.html"
+      },
+      {
+        "title": "线段树（内含树状数组）",
+        "path": "segment-tree/",
+        "items": [
+          {
+            "title": "基本功能",
+            "path": "segment-tree/basics.html"
+          },
+          {
+            "title": "线段树（基础+提高）",
+            "path": "segment-tree/techniques.html",
+            "featured": "线段树进阶"
+          },
+          {
+            "title": "线段树排序回文子串",
+            "path": "segment-tree/palindrome-sort.html"
+          },
+          {
+            "title": "树状数组上倍增求第 k 大的值",
+            "path": "segment-tree/fenwick-kth.html"
+          },
+          {
+            "title": "妙妙线段树或者树状数组",
+            "path": "segment-tree/segment-or-fenwick.html"
+          }
+        ]
+      },
+      {
+        "title": "堆",
+        "path": "heap.html"
+      },
+      {
+        "title": "带权并查集",
+        "path": "weighted-dsu.html",
+        "featured": "带权并查集"
+      },
+      {
+        "title": "树",
+        "path": "tree.html",
+        "featured": "树上 LCA 与虚树"
+      }
+    ]
+  }
+]

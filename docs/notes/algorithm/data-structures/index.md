@@ -1,3 +1,7 @@
+<script setup>
+import LearningChapterDirectory from '../../../.vitepress/components/LearningChapterDirectory.vue'
+</script>
+
 # 数据结构
 
-- [并查集原理](./dsu.md)
+<LearningChapterDirectory category="data-structures" />
