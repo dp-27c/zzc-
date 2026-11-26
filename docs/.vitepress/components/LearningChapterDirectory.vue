@@ -12,27 +12,18 @@ const chapters = props.section
 
 if (!chapters) throw new Error(`Unknown learning notes section: ${props.category}/${props.section}`)
 
-const cards = chapters.flatMap(chapter => {
-  if (!chapter.path) return []
-
-  const childLinks = (chapter.items ?? []).flatMap(child => child.path
+const cards = chapters.map(chapter => ({
+  title: chapter.path ? chapter.title : `${chapter.title}（待补）`,
+  href: chapter.path ? learningChapterHref(category.slug, chapter.path) : undefined,
+  featured: (chapter.items ?? []).flatMap(child => child.path
     ? [{
       title: child.featured ?? child.title,
       href: learningChapterHref(category.slug, child.path)
     }]
-    : [])
-
-  return [{
-    title: chapter.title,
-    href: learningChapterHref(category.slug, chapter.path),
-    featured: childLinks.slice(0, 4)
-  }]
-})
-
-const pendingChapters = chapters.filter(chapter => !chapter.path)
+    : []).slice(0, 4)
+}))
 </script>
 
 <template>
   <TopicCards :cards="cards" />
-  <p v-for="chapter in pendingChapters" :key="chapter.title">{{ chapter.title }}（待补）</p>
 </template>

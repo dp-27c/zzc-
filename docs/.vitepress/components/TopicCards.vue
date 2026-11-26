@@ -7,20 +7,20 @@ type CardLink = {
 }
 
 defineProps<{
-  cards: (CardLink & { action?: string; featured?: CardLink[] })[]
+  cards: (Omit<CardLink, 'href'> & { href?: string; action?: string; featured?: CardLink[] })[]
 }>()
 </script>
 
 <template>
   <div class="topic-cards">
-    <section v-for="card in cards" :key="card.href" class="topic-card">
+    <section v-for="card in cards" :key="card.href ?? card.title" class="topic-card">
       <header class="topic-card-header">
         <h2>
-          <template v-if="card.action">{{ card.title }}</template>
-          <a v-else :href="withBase(card.href)">{{ card.title }}</a>
+          <a v-if="card.href && !card.action" :href="withBase(card.href)">{{ card.title }}</a>
+          <template v-else>{{ card.title }}</template>
         </h2>
         <a
-          v-if="card.action"
+          v-if="card.href && card.action"
           class="topic-card-action"
           :href="withBase(card.href)"
           :aria-label="card.action + ' · ' + card.title"
