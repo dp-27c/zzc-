@@ -10,7 +10,7 @@ sidebarOutline: true
 
 注意 要保证 p 为质数
 
-待补图片（Pasted image 20250817103159.png）
+![Lucas 定理计算大组合数的公式](../../../../assets/note-images/Pasted%20image%2020250817103159.png){width=1220 height=390}
 
 
 用于求 大组合数的值
@@ -45,7 +45,7 @@ LL lucas(LL a, LL b,LL M) {
 ## 模数不为质数时求解组合数：
 
 
-待补图片（Pasted image 20250817172910.png）
+![复合模数下计算组合数的方法](../../../../assets/note-images/Pasted%20image%2020250817172910.png){width=1464 height=260}
 
 用质数筛 将阶乘进行质因数分解，然后约分，因为保证了最后一定约的掉
 当然也只能适用于n的1e6的范围，时间复杂度为$O(2n)$
@@ -53,7 +53,7 @@ LL lucas(LL a, LL b,LL M) {
 
 结论是很好记的，但是你想看证明吗？
 
-待补图片（Pasted image 20250817103414.png）
+![组合数计算结论的证明](../../../../assets/note-images/Pasted%20image%2020250817103414.png){width=945 height=1231}
 
 看完了记得教一下我
 我还不会

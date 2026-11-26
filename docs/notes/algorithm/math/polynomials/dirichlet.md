@@ -34,7 +34,7 @@ $\sum_{d|n}\varphi(d)=n$
 证明：利用真分数
 
 
-待补图片（Pasted image 20250826145132.png）
+![欧拉函数约数和恒等式的真分数证明](../../../../assets/note-images/Pasted%20image%2020250826145132.png){width=646 height=357}
 
 
 

@@ -19,19 +19,20 @@ AtCoder、Codeforces、LeetCode 使用同级目录。AtCoder ABC 场次记录在
 | 附件 `C级公式.md` | `docs/algo/templates/c-level.md` | 公式排版，已补 8 张原图 |
 | 附件 `D级模板.md` | `docs/algo/templates/d-level.md` | 公式排版 |
 | 附件 `E级trick.md` | `docs/algo/templates/e-level.md` | 公式排版，已补 6 张原图 |
-| 附件 `数学大板：.md` | `docs/algo/topics/math/` | 四个分区，31 个章节，2 个空章标为待补。复用 6 张原图，14 处保留文件名占位。 |
-| 附件 `计算几何板.md` | `docs/algo/topics/geometry/` | 8 个章节，复用 1 张图，4 张待补 |
-| 附件 `IC网络赛板：.md` | `docs/algo/topics/mixed/` | 专题名为「综合」，9 个章节，3 张图待补 |
-| 附件 `Tricks（需吸收日月精华）.md` | `docs/algo/topics/tricks/` | 专题名为「总trick」，8 个章节，复用 5 张图，6 张待补 |
+| 附件 `数学大板：.md` | `docs/algo/topics/math/` | 四个分区，31 个章节，2 个空章标为待补。已补全 12 处配图，2 处待补。 |
+| 附件 `计算几何板.md` | `docs/algo/topics/geometry/` | 8 个章节，5 处配图已补齐 |
+| 附件 `IC网络赛板：.md` | `docs/algo/topics/mixed/` | 专题名为「综合」，9 个章节，3 处配图已补齐 |
+| 附件 `Tricks（需吸收日月精华）.md` | `docs/algo/topics/tricks/` | 专题名为「总trick」，8 个章节，6 处配图已恢复，5 处待补 |
 | 附件 `字符串讲解：.md` | `docs/notes/algorithm/strings/` | 4 个章节，5 张图待补 |
-| 附件 `数学讲解.md` | `docs/notes/algorithm/math/` | 37 个章节，复用 7 处配图 |
-| 附件 `计算几何讲解.md` | `docs/notes/algorithm/geometry/` | 13 个章节，复用 1 处配图 |
-| 附件 `dp讲解.md` | `docs/notes/algorithm/dp/` | 21 个章节，复用 0 处配图 |
-| 附件 `数据结构讲解：.md` | `docs/notes/algorithm/data-structures/` | 14 个章节，复用 0 处配图 |
+| 附件 `数学讲解.md` | `docs/notes/algorithm/math/` | 37 个章节，53 处配图已补齐 |
+| 附件 `计算几何讲解.md` | `docs/notes/algorithm/geometry/` | 13 个章节，18 处配图已补齐 |
+| 附件 `dp讲解.md` | `docs/notes/algorithm/dp/` | 21 个章节，11 处配图已补齐 |
+| 附件 `数据结构讲解：.md` | `docs/notes/algorithm/data-structures/` | 14 个章节，4 处配图已补齐 |
+| 附件 `zzc-images-20261125-050952.zip` | `docs/assets/note-images/` | 保存 76 张原图，恢复 98 处配图 |
 
 ## 算法学习笔记缺图清单
 
-78 处缺图涉及 76 个不同文件。正文已按原文件名占位。
+本清单列出的 76 个文件均已补齐。以下保留原文件名，供核对。
 
 ### 数学
 

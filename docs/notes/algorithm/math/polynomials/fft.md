@@ -58,7 +58,7 @@ $\displaystyle C_n=x^n \sum_{i=0}^{n} a_i*b_{n-i}$
 时间复杂度就会来到 $O(n^2)$ ，那么我们该如何减小这一段的时间复杂度问题呢？
 
 
-待补图片（Pasted image 20250829163550.png）
+![多项式乘法中系数表示与点值表示的转换](../../../../assets/note-images/Pasted%20image%2020250829163550.png){width=824 height=558}
 
  【图片来自：董晓算法】
 这里的求系数应该是 IFFT 
@@ -105,7 +105,7 @@ $\displaystyle C_n=x^n \sum_{i=0}^{n} a_i*b_{n-i}$
 
 
 
-待补图片（Pasted image 20250829164215.png）
+![复平面上的单位根示意](../../../../assets/note-images/Pasted%20image%2020250829164215.png){width=377 height=370}
 
 【图片来自：董晓算法】
 
@@ -177,7 +177,7 @@ $$
 接下来就可以利用递归:
 
 
-待补图片（Pasted image 20250829172006.png）
+![FFT 递归计算单位根处点值的过程](../../../../assets/note-images/Pasted%20image%2020250829172006.png){width=1044 height=642}
 
 【图片来自：董晓算法】
 
@@ -272,7 +272,7 @@ void solve() // ll
 将 每次递归成两份的操作 寻找规律，发现最后得到的数据排列是 位的逆序变换 （蝴蝶变换），然后根据这个规律，我们可以实现按层遍历，自底向上。
 
 
-待补图片（Pasted image 20250830152557.png）
+![迭代 FFT 的位逆序排列与蝶形变换](../../../../assets/note-images/Pasted%20image%2020250830152557.png){width=684 height=558}
 
 【图片来自：董晓算法】
 在FFT前先做位的逆序变换。

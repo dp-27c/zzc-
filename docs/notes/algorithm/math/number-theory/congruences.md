@@ -179,7 +179,7 @@ int CRT(vector<int> m, vector<int> r, int n)
 ### 结论：
 
 
-待补图片（Pasted image 20250813212904.png）
+![中国剩余定理的结论](../../../../assets/note-images/Pasted%20image%2020250813212904.png){width=1165 height=468}
 
 求一个数在mod 任意数的逆元 我们通常采用 拓展欧几里得定理去 求出 $\huge a\times a^{-1} \equiv 1 \pmod{m}$
 
@@ -196,7 +196,7 @@ int CRT(vector<int> m, vector<int> r, int n)
 4. **别忘了最后要mod M 哦！！**
 
 
-待补图片（Pasted image 20250813213153.png）
+![中国剩余定理的构造证明](../../../../assets/note-images/Pasted%20image%2020250813213153.png){width=1118 height=1145}
 
 
 ### 拓展 中国剩余定理
@@ -211,7 +211,7 @@ int CRT(vector<int> m, vector<int> r, int n)
 
 
 
-待补图片（Pasted image 20250814110900.png）
+![扩展中国剩余定理的同余方程合并](../../../../assets/note-images/Pasted%20image%2020250814110900.png){width=1053 height=1095}
 
 
 #### 代码：

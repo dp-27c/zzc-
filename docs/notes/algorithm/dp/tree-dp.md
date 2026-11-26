@@ -18,7 +18,7 @@ sidebarOutline: true
 就会有两种情况，两条路线有交集，和无交集；
 均可证明 距离最远的节点 u 到达直径端点的长度大于 原直径，因此方法成立
 
-待补图片（Pasted image 20250726212745.png）
+![用路径相交与否证明树的直径端点](../../../assets/note-images/Pasted%20image%2020250726212745.png){width=1037 height=572}
 
 ## 树形dp对边和点的考虑
 

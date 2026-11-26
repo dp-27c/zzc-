@@ -9,7 +9,7 @@ sidebarOutline: true
 ## 证明：
 
 
-待补图片（Pasted image 20250817114418.png）
+![容斥原理证明示意](../../../../assets/note-images/Pasted%20image%2020250817114418.png){width=2270 height=838}
 
 
 简单点就是 集合的并等于集合的交的交错和（奇正偶负）
@@ -69,7 +69,7 @@ void solve() // ll !
 这样也更方便我们计算时间复杂度 $O(m*2^m)$
 
 
-待补图片（Pasted image 20250817120606.png）
+![用二进制枚举优化容斥计数](../../../../assets/note-images/Pasted%20image%2020250817120606.png){width=1148 height=427}
 
 
 ## 容斥原理求交：
@@ -78,7 +78,7 @@ void solve() // ll !
 图示证明：
 
 
-待补图片（Pasted image 20250817121543.png）
+![用容斥原理计算集合交集](../../../../assets/note-images/Pasted%20image%2020250817121543.png){width=1051 height=1135}
 
 
 ### 背包+容斥原理
@@ -86,10 +86,10 @@ void solve() // ll !
 题目：[P1450 [HAOI2008] 硬币购物 - 洛谷](https://www.luogu.com.cn/problem/P1450)^
 大意：
 
-待补图片（Pasted image 20250817143653.png）
+![硬币购物的例题题意](../../../../assets/note-images/Pasted%20image%2020250817143653.png){width=1452 height=259}
 
 
-待补图片（Pasted image 20250817143718.png）
+![硬币购物的输入输出说明](../../../../assets/note-images/Pasted%20image%2020250817143718.png){width=1109 height=89}
 
 如果我们用多重背包去做
 就算用了复杂的单调队列优化 $O(4sn)$ 4e8的时间很容易爆炸

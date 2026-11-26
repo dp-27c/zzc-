@@ -11,9 +11,9 @@ sidebarOutline: true
 题目：[P1450 [HAOI2008] 硬币购物 - 洛谷](https://www.luogu.com.cn/problem/P1450)
 大意：
 
-待补图片（Pasted image 20250817143653.png）
+![硬币购物的例题题意](../../../assets/note-images/Pasted%20image%2020250817143653.png){width=1452 height=259}
 
-待补图片（Pasted image 20250817143718.png）
+![硬币购物的输入输出说明](../../../assets/note-images/Pasted%20image%2020250817143718.png){width=1109 height=89}
 
 如果我们用多重背包去做
 就算用了复杂的单调队列优化 $O(4sn)$ 4e8的时间很容易爆炸

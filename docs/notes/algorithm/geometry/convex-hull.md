@@ -39,7 +39,7 @@ vector<Point> Andrew(vector<Point> &pp,int n,int &len)// len 表示最后凸包�
 ## 概念
 能包含所有给定点的最小凸多边形叫做凸包
 
-待补图片（Pasted image 20250928162241.png）
+![点集及其凸包边界](../../../assets/note-images/Pasted%20image%2020250928162241.png){width=1935 height=1038}
 
 
 ## 求凸包：
@@ -47,12 +47,12 @@ vector<Point> Andrew(vector<Point> &pp,int n,int &len)// len 表示最后凸包�
 思路：
 找到最下的同时，最左的点，人然后从 所有点中， 按照于起始点连接逆时针扫描。
 
-待补图片（Pasted image 20250928163205.png）
+![从起点按极角扫描并维护凸包](../../../assets/note-images/Pasted%20image%2020250928163205.png){width=579 height=463}
 
 就这样 保持每到一个新的点，都是在上一个编制的线上做顺时针旋转（可以用 叉积 判断）。
 如果发现逆时针，则弹出 栈的顶部 ，换上上 一个点 判断，重复上一行操作。
 
-待补图片（Pasted image 20250928163438.png）
+![极角扫描遇到不合要求的转向时弹出栈顶点](../../../assets/note-images/Pasted%20image%2020250928163438.png){width=552 height=434}
 
 时间复杂度在 $O(n\log n)$ 
 #### 模版题：
@@ -173,7 +173,7 @@ void solve() // ll
 
 思路：
 
-待补图片（Pasted image 20250929172409.png）
+![水平可见直线及其交点示意](../../../assets/note-images/Pasted%20image%2020250929172409.png){width=1040 height=570}
 
 按照斜率 从小到大升序 ，在斜率相同的情况下我们只要保留 截距最高的那个直线就好。
 然后我们进行凸包下包围

@@ -35,7 +35,7 @@ $\Huge \left [ _{k}^{n} \right ]$ 表示 斯特林轮转数
 $\Huge \left \{ _{k}^{n} \right \}$ 表示 斯特林子集数
 
 
-待补图片（Pasted image 20250821195033.png）
+![用斯特林数在普通幂与下降幂之间转换](../../../../assets/note-images/Pasted%20image%2020250821195033.png){width=559 height=789}
 
 
 ## 练习：
@@ -43,7 +43,7 @@ $\Huge \left \{ _{k}^{n} \right \}$ 表示 斯特林子集数
 [P6620 [省选联考 2020 A 卷] 组合数问题 - 洛谷](https://www.luogu.com.cn/problem/P6620)
 大意：
 
-待补图片（Pasted image 20250821210922.png）
+![组合数问题的题意与数据范围](../../../../assets/note-images/Pasted%20image%2020250821210922.png){width=1051 height=213}
 
 对于所有测试数据：$1≤n,x,p≤1e9,0≤ai​≤1e9,0≤m≤min(n,1000)$
 f(k) 为给定的一个 m 次多项式 f(k)=a_0​+a_1 ​k + a_ 2 ​k2+⋯+ a_m​ km。
@@ -62,7 +62,7 @@ n 能开到 1e9 ，直接爆炸了
 所以项数就从原来的  0 - > n  变成了  0 -  > n - j
 利用换元的思想更好理解组合数转二项式。
 
-待补图片（Pasted image 20250821212659.png）
+![组合数求和练习中的换元推导](../../../../assets/note-images/Pasted%20image%2020250821212659.png){width=1012 height=1265}
 
 
 ```cpp

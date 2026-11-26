@@ -10,7 +10,7 @@ sidebarOutline: true
 2. 算出每个三角形与圆的相交面积。
 3. 根据有向面积的正负累加到答案中。
 
-待补图片（Pasted image 20250927132942.png）
+![从圆心向多边形顶点作连线以累加有向面积](../../../assets/note-images/Pasted%20image%2020250927132942.png){width=454 height=311}
 
 根据上图我们可以理解有向面积：
 我们从 1 开始逆时针旋转枚举线段 => 
@@ -19,7 +19,7 @@ sidebarOutline: true
 最后`<4,1>`因为1在顺时针方向上，因此取负数。
 另外一个例子：参考下图：
 
-待补图片（Pasted image 20250927163504.png）
+![圆与多边形相交时的另一个三角剖分示例](../../../assets/note-images/Pasted%20image%2020250927163504.png){width=565 height=536}
 
 
 每个三角形和圆相交的面积分为5种
@@ -29,7 +29,7 @@ sidebarOutline: true
 - 线段一端在圆内：1个三角形的有向面积 + 1个扇形的有向面积
 - 线段是圆的割线：1个三角形的有向面积 + 1个扇形的有向面积
 
-待补图片（Pasted image 20250927135730.png）
+![线段与圆的位置关系及三角形相交面积分类](../../../assets/note-images/Pasted%20image%2020250927135730.png){width=712 height=504}
 
 
 ## 代码（模版）：

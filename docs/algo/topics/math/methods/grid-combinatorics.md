@@ -9,7 +9,7 @@ sidebarOutline: true
 
 很好的一道题：[1309. 车的放置](https://www.acwing.com/problem/content/1311/)  
 大意：  
-待补图片（Pasted image 20250816165137.png）
+![车的放置练习中的棋盘布局](../../../../assets/note-images/Pasted%20image%2020250816165137.png){width=1425 height=737}
 
 思路：  
 把这个图形看成是 上面一个小矩形和下面一个大矩形的组合。

@@ -46,7 +46,7 @@ sidebarOutline: true
 
 其本质 是利用 欧拉序 模拟为 在 st表求 区间最小值的问题
 因为 区间最小值可以区间覆盖，因此只需要（如图）
-待补图片（Pasted image 20260815200756.png）
+![稀疏表用两个重叠区间查询最大值的示例](../../../assets/note-images/Pasted%20image%2020260815200756.png){width=993 height=306}
 
 ```cpp
 	int tot=0,toula=0;

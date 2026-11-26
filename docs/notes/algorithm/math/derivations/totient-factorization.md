@@ -42,7 +42,7 @@ $$
 
 
 
-待补图片（Pasted image 20250602193726.png）
+![欧拉定理的同余结论](../../../../assets/note-images/Pasted%20image%2020250602193726.png){width=1129 height=579}
 
 费马小定理可以看成是欧拉定理的特殊情况（m为质数）
 ```cpp

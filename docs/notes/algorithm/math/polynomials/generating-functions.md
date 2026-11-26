@@ -104,7 +104,7 @@ $\displaystyle \frac{1}{(1-x)^n}=\sum_{i=0}^{\infty}C_{n+i-1}^{i}x^i=\sum_{i=0}^
 
 
 
-待补图片（Pasted image 20250825162928.png）
+![广义二项式定理的证明](../../../../assets/note-images/Pasted%20image%2020250825162928.png){width=1003 height=1020}
 
 
 
@@ -115,7 +115,7 @@ $\displaystyle \frac{1}{(1-x)^n}=\sum_{i=0}^{\infty}C_{n+i-1}^{i}x^i=\sum_{i=0}^
 大意：
 
 
-待补图片（Pasted image 20250825171035.png）
+![普通生成函数与广义二项式定理的练习题](../../../../assets/note-images/Pasted%20image%2020250825171035.png){width=387 height=620}
 
 
 思路：
@@ -160,7 +160,7 @@ $F(x) =x\sum_{i=0}^{\infty} C_{4-1+i}^{i} x^i$
 当然因为这里面还是比较简单的，只涉及到指数生成函数的加法运算。
 
 
-待补图片（Pasted image 20250825185527.png）
+![指数生成函数练习的乘积展开](../../../../assets/note-images/Pasted%20image%2020250825185527.png){width=701 height=672}
 
 
 
