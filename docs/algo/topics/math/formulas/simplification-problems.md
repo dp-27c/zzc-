@@ -53,4 +53,4 @@ $\large \displaystyle d(ij)=\sum_{x|i}^{}\sum_{y|j} [gcd(x,y)==1]$ 证明过程[
 
 证明过程：
 
-待补图片（Pasted image 20250828141553.png）
+![积性函数和式交换枚举顺序的证明](../../../../assets/note-images/Pasted%20image%2020250828141553.png){width=583 height=639}

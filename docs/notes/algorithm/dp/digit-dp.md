@@ -16,7 +16,7 @@ sidebarOutline: true
 从高位到低位依次考虑 用 dp 热狗分析法
 有点想在画树，参考下面的图
 
-待补图片（Pasted image 20250728200118.png）
+![数位 DP 从最高位逐位划分计数范围](../../../assets/note-images/Pasted%20image%2020250728200118.png){width=1256 height=632}
 
 ## 挑战模式
 

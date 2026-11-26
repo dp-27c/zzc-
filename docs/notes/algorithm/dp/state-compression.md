@@ -14,7 +14,7 @@ sidebarOutline: true
 
 dp 的压缩设计在于，`f[i][j]` 表示在 i 个位置上，被横向的长方形的后边占据的状态；
 
-待补图片（Pasted image 20250725104542.png）
+![网格铺砖的按列状态压缩与合法转移](../../../assets/note-images/Pasted%20image%2020250725104542.png){width=2179 height=1165}
 
 ```cpp
 /*
@@ -131,7 +131,7 @@ int main() {
 [炮兵](https://www.acwing.com/problem/content/294/)
 题目：真的不想再码字了
 
-待补图片（Pasted image 20250725202316.png）
+![炮兵阵地题的网格和放置限制](../../../assets/note-images/Pasted%20image%2020250725202316.png){width=1551 height=1104}
 
 其实是三维，还有一维 i 作为第几行可以用滚动数组优化掉
 

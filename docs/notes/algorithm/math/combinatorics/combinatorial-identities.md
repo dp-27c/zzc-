@@ -10,7 +10,7 @@ sidebarOutline: true
 
 
 
-待补图片（Pasted image 20251202104717.png）
+![杨辉三角与多项式系数的对应](../../../../assets/note-images/Pasted%20image%2020251202104717.png){width=1155 height=529}
 
 i 表示层数：
 即 杨辉三角关系： 一层和下一层的递推关系： $F(i)=(x+1) \times F(i-1)$ ，涉及多项式乘法 或者二项式乘法

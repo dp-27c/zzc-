@@ -16,7 +16,7 @@ $\huge \sum_{i=1}^{n} \left \lfloor \displaystyle\frac {n}{i} \right \rfloor$
 
 例如：
 
-待补图片（Pasted image 20250823141839.png）
+![整数分块中商相同的下标区间](../../../../assets/note-images/Pasted%20image%2020250823141839.png){width=807 height=196}
 
 
 其中 $\displaystyle n/(n/i)$ 表示的是 n / i 不变的最大 x，使得 没有比 x 大的数t，使得 n / t = n / x .

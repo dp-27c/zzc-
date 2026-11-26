@@ -9,7 +9,7 @@ sidebarOutline: true
 时间复杂度：O(nm)
 [多重背包](https://www.acwing.com/activity/content/problem/content/1274/)
 
-待补图片（Pasted image 20250720213343.png）
+![按体积余数分组并用单调队列转移的多重背包代码](../../../../assets/note-images/Pasted%20image%2020250720213343.png){width=1540 height=732}
 
 ```cpp
 int q[N];//单调队列 注：要开大一点

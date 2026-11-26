@@ -11,7 +11,7 @@ sidebarOutline: true
 很好的一道题：[1309. 车的放置]([1309. 车的放置 - AcWing题库](https://www.acwing.com/problem/content/1311/))^
 大意：
 
-待补图片（Pasted image 20250816165137.png）
+![不同行不同列放车的例题题意](../../../../assets/note-images/Pasted%20image%2020250816165137.png){width=1425 height=737}
 
 
 思路：

@@ -58,7 +58,7 @@ void solve() // ll !
 
 [OI-wiki](https://oi-wiki.org/math/combinatorics/combination/#%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E5%92%8C%E7%9A%84%E6%95%B0%E7%9B%AE "Permanent link")^
 
-待补图片（Pasted image 20250816151804.png）
+![隔板法计算非负整数和的方案数](../../../../assets/note-images/Pasted%20image%2020250816151804.png){width=1135 height=716}
 
 
 
@@ -68,7 +68,7 @@ void solve() // ll !
 练习题：([AcWing - 算法提高课](https://www.acwing.com/activity/content/record/16/1/))
 快些题解啊
 
-待补图片（Pasted image 20250817094117.png）
+![单调不降数列计数练习的题意](../../../../assets/note-images/Pasted%20image%2020250817094117.png){width=1424 height=228}
 
 因为满足单调不降的顺序，我们此时可以对相邻元素进行差分， 此时就可得到一个 $a_1+(a_2-a_1)+(a_3-a_2)……$
 然后将他们求和，$sum_n<=(r-l)$   （把范围看成是 0 ~ r-l ）
@@ -134,12 +134,12 @@ signed main()
 
 [OI-wiki](https://oi-wiki.org/math/combinatorics/combination/#%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E5%92%8C%E7%9A%84%E6%95%B0%E7%9B%AE "Permanent link")^
 
-待补图片（Pasted image 20250816152930.png）
+![带不同下界的整数和计数](../../../../assets/note-images/Pasted%20image%2020250816152930.png){width=1176 height=861}
 
 
 ## 不相邻的排列
 
 
-待补图片（Pasted image 20250816153042.png）
+![隔板法处理不相邻排列](../../../../assets/note-images/Pasted%20image%2020250816153042.png){width=1254 height=249}
 
 这里我解释一下， 看完上面的方法也很好理解，为了是两个数不相邻，我们可以在选出来的 k 个部分中 在砍掉其中 k-1 个元素，放在这 k个部分的两两之间，这样我们就把他们隔开了。

@@ -53,7 +53,7 @@ $\huge \displaystyle \sum_{i=0}^{n}\sum_{j=0}^{i}=\sum_{j=0}^{n}\sum_{i=j}^{n}$
 等式右边则是 从 第一列开始往右遍历。
 这两种遍历方式都遍历了这个下三角，所以可以互相转换。
 
-待补图片（Pasted image 20250822152038.png）
+![双重求和按行与按列遍历下三角区域](../../../../assets/note-images/Pasted%20image%2020250822152038.png){width=354 height=417}
 
 ### 积性函数求和变换
 $\large \displaystyle\sum_{d|n}\sum_{k|\frac{n}{d}}=\sum_{k|n}\sum_{d|\frac{n}{k}}$

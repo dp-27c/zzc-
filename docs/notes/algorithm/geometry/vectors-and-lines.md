@@ -89,7 +89,7 @@ $\Large a\times b=|a|\cdot|b|\sin\theta$
 3. $(b-a)\times(c-a)=0\rightarrow \text{三点共线}$
 
 
-待补图片（Pasted image 20250922195646.png）
+![叉积符号区分点在有向直线的左侧和右侧](../../../assets/note-images/Pasted%20image%2020250922195646.png){width=1021 height=333}
 
 可以解决 线线关系：
 （直线 ab 与 线段 cd 之间的关系）
@@ -98,13 +98,13 @@ $\Large a\times b=|a|\cdot|b|\sin\theta$
 1. $cross(ac,ab) * cross(ad,ab) >0$ (直线ab与线段cd无交点)
 2. $cross(ac,ab)*cross(ad,ab) \le 0$ (直线ab与线段cd有交点)
 
-待补图片（Pasted image 20250923162034.png）
+![用端点叉积判断直线与线段是否相交](../../../assets/note-images/Pasted%20image%2020250923162034.png){width=714 height=424}
 
 3. 求两直线的交点：
 利用叉积的比值
 
 
-待补图片（Pasted image 20250924141735.png）
+![利用叉积比值求两条直线交点](../../../assets/note-images/Pasted%20image%2020250924141735.png){width=595 height=294}
 
 
 4. 线段与线段之间的交点（未完成）

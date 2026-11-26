@@ -26,7 +26,7 @@ $\Huge \sum_{i=0}^{n}(-1)^i \times C_{n}^{i} = [n==0]$
 [F - Range Power Sum](https://atcoder.jp/contests/abc399/tasks/abc399_f)
 大意：
 
-待补图片（Pasted image 20250824141612.png）
+![区间幂次和例题的题意](../../../../assets/note-images/Pasted%20image%2020250824141612.png){width=1631 height=291}
 
 - 1 ≤ N ≤ 2e5
 - 1 ≤ K ≤ 10
@@ -143,7 +143,7 @@ $\Huge f(n)=\sum_{i=0}^{n}C_{n}^{i}\times g(i) \Longleftrightarrow  g(n)=\sum_{i
 可以将组合数$\large C_{n-j}^{i} => C_{n}^{n-j-i}$
 这样更符合 推论式1，更好理解这一步的变换。
 
-待补图片（Pasted image 20250822153650.png）
+![二项式反演证明中的求和换元](../../../../assets/note-images/Pasted%20image%2020250822153650.png){width=717 height=758}
 
 
 

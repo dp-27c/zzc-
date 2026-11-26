@@ -21,7 +21,7 @@ sidebarOutline: true
 3. 取对踵点到边的最大距离
 4. 枚举所有凸包上的边，重复过程
 
-待补图片（Pasted image 20250929200840.png）
+![旋转卡壳枚举凸包边与对踵点](../../../assets/note-images/Pasted%20image%2020250929200840.png){width=493 height=239}
 
 时间复杂度为$O(n)$
 ### 代码模版：
